@@ -33,3 +33,16 @@ On terminal,
 ```
  $ sudo docker exec -it <container-id> redis-cli -h <ip> -p <port> -a <passwd>
 ```
+### Check info
+```
+ $ 192.168.XX.XX:XXXX> info
+ # Server
+ redis_version:5.0.6
+ redis_git_sha1:00000000
+ redis_git_dirty:0
+ redis_build_id:79574e45aa74bab1
+ redis_mode:cluster
+ os:Linux 3.10.0-957.27.2.el7.x86_64 x86_64
+ arch_bits:64
+ ...
+```
