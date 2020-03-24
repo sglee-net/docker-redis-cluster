@@ -49,3 +49,15 @@ On terminal,
  arch_bits:64
  ...
 ```
+
+## Update Firewall
+reference
+ - https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/sec-using_zones_to_manage_incoming_traffic_depending_on_source
+ - https://www.lesstif.com/ws/%EB%84%A4%ED%8A%B8%EC%9B%8D-%EA%B5%AC%EC%84%B1%EA%B3%BC-%EB%B0%A9%ED%99%94%EB%B2%BD/firewalld
+ - https://itragdoll.tistory.com/4
+```
+ $ firewall-cmd --permanent --zone=public --add-service=redis
+ $ firewall-cmd --permanent --zone=public --add-port=7001-7006/tcp
+ $ firewall-cmd --reload
+ $ firewall-cmd --list-all
+```
