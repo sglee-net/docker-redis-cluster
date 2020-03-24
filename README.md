@@ -23,7 +23,8 @@ Otherwise, run the below
 ```
  $ chmod +x create-redis-cluster.sh
 ```
-### Run prepared script
+### Run prepared script to make a cluster (Master/Slave)
+refer https://daddyprogrammer.org/post/1601/redis-cluster/
 ```
  $ ./create-redis-cluster.sh <container-id>
 ```
