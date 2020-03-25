@@ -15,7 +15,7 @@ RUN chmod 755 ./docker-entrypoint.sh
 RUN chown redis:redis ./redis.conf
 RUN chown redis:redis ./docker-entrypoint.sh
 
-#EXPOSE ${EXPOSEPORT} 
+EXPOSE ${EXPOSEPORT} 
 
 ENTRYPOINT ["./docker-entrypoint.sh"]
 CMD ["redis-server","./redis.conf"]

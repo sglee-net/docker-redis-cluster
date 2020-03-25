@@ -8,6 +8,8 @@ services:
       args: 
         - EXPOSEPORT=7001
     network_mode: "host" 
+    ports:
+      - "7001:7001"
     environment: 
       - PASSWORD=1111 
       - CLIENTHOST=192.168.0.41 
