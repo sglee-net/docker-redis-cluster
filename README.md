@@ -24,13 +24,10 @@ Otherwise, run the below
  $ chmod +x create-redis-cluster.sh
 ```
 ### Run prepared script to make a cluster (Master/Slave)
-reference
- - https://daddyprogrammer.org/post/1601/redis-cluster/ 
- - https://daddyprogrammer.org/post/1601/redis-cluster/
 ```
  $ ./create-redis-cluster.sh <container-id>
 ```
-### Run "redis-cli" in the case of different servers
+### Run "redis-cli --cluster add-node <from> <to> --cluster-slave" in the case of different servers
 reference
  - https://daddyprogrammer.org/post/1601/redis-cluster/
 
