@@ -30,6 +30,9 @@ reference
 ```
  $ ./create-redis-cluster.sh <container-id>
 ```
+### Run "redis-cli" in the case of different servers
+reference
+ - https://daddyprogrammer.org/post/1601/redis-cluster/
 
 ### Connect to Redis
 On terminal,
