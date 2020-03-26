@@ -61,3 +61,8 @@ reference
  $ firewall-cmd --reload
  $ firewall-cmd --list-all
 ```
+
+## Configuration of Single Redis
+### redis.conf and IP binding
+reference
+ - https://techmonger.github.io/71/remote-connection/
