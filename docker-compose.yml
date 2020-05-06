@@ -12,7 +12,7 @@ services:
       - "7001:7001"
     environment: 
       - PASSWORD=1111 
-      - CLIENTHOST=192.168.0.41 
+      - CLIENTHOST=192.168.50.65 
       - CLIENTPORT=7001 
     volumes: 
       - ./data/1:/data 
@@ -28,7 +28,7 @@ services:
     network_mode: "host" 
     environment: 
       - PASSWORD=1111 
-      - CLIENTHOST=192.168.0.41 
+      - CLIENTHOST=192.168.50.65 
       - CLIENTPORT=7002 
     volumes: 
       - ./data/2:/data 
@@ -44,7 +44,7 @@ services:
     network_mode: "host" 
     environment: 
       - PASSWORD=1111 
-      - CLIENTHOST=192.168.0.41 
+      - CLIENTHOST=192.168.50.65 
       - CLIENTPORT=7003 
     volumes: 
       - ./data/3:/data 
@@ -60,7 +60,7 @@ services:
     network_mode: "host" 
     environment: 
       - PASSWORD=1111 
-      - CLIENTHOST=192.168.0.41 
+      - CLIENTHOST=192.168.50.65 
       - CLIENTPORT=7004 
     volumes:
       - ./data/4:/data 
@@ -76,7 +76,7 @@ services:
     network_mode: "host" 
     environment: 
       - PASSWORD=1111 
-      - CLIENTHOST=192.168.0.41 
+      - CLIENTHOST=192.168.50.65 
       - CLIENTPORT=7005
     volumes: 
       - ./data/5:/data 
@@ -92,7 +92,7 @@ services:
     network_mode: "host" 
     environment: 
       - PASSWORD=1111 
-      - CLIENTHOST=192.168.0.41 
+      - CLIENTHOST=192.168.50.65 
       - CLIENTPORT=7006 
     volumes: 
       - ./data/6:/data 
