@@ -2,7 +2,7 @@
 
 ## Build and run Redis cluster as a Docker container 
 ### Check files 
- - docker-composer.yml
+ - docker-compose.yml
  - Dockerfile
  - docker-entrypoint.sh
  - redis.conf
